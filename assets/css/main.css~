@@ -1,0 +1,186 @@
+@font-face{
+	font-family: "OpenDyslexic";
+	src: url(../fonts/OpenDyslexic-Regular.otf) format('opentype');
+	font-display: auto;
+}
+
+@font-face{
+    font-family: "DejaVu Sans";
+    src: url(../fonts/DejaVuSans.tff) format('truetype');
+    font-display: auto;
+}
+
+@font-face{
+	font-family: "Futura";
+	src: url(../fonts/Futura.tff) format('truetype');
+	font-display: auto;
+}
+
+@font-face{
+	font-family: "ComicNeue";
+	src: url(../fonts/ComicNeue/ComicNeue-Regular.woff) format('woff');
+	font-display: auto;
+}
+
+body {
+  color: #182964;
+  background-color: #E08AA6;
+}
+
+button {
+  border: none;
+  display: inline-block;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.button1{
+  border: none;
+  font-family: "Arial";
+  -moz-font-family: "Arial";
+  /*font-family: "DejaVu Sans Mono";*/
+  -ms-font-family: "Arial";
+  text-align: center;
+  background-color: #E08AA6;
+  color: #182964;
+  /*background-color: white;*/
+}
+
+.button1:hover{
+  background-color: #7886AA;
+}
+
+.button2{
+  border: none;
+  font-family: "ComicNeue";
+  /*-ms-font-family: "ComicNeue";*/
+  background-color: #E08AA6;
+  color: #182964;
+  /*background-color: white;*/
+}
+
+.button2:hover{
+  background-color: #7886AA;
+  font-family: "OpenDyslexic";
+  font-size: 19px;
+  /*-ms-font-family: "Comic Sans MS"*/;
+}
+
+.button3{
+  color: white;
+  border: none;
+  font-family: "Arial";
+  background-color: black;
+}
+
+.button3:hover{
+  background-color: gray;
+}
+
+.web-title {
+    font-family: "Futura";
+    -moz-font-family: "Arial", monospace;
+    /*font-family: "DejaVu Sans Mono";*/
+    -webkit-font-family: "Arial";
+    /*-o-font-family: "Comic Neue";*/
+    /*-moz-font-family: "Courier", Courier, monospace;*/
+    font-style: bold;
+    font-size: 60px;
+}
+/*
+table, th, td{
+    border: no;
+    text-align: center;
+    font-family: "DejaVu Sans Mono";
+    font-size: 24px;
+    max-width: 100%;
+    color: black;
+    font-style: normal;
+}*/
+
+div.profile {
+  align-self: center;
+  text-align: center;
+  font-family: "Arial";
+  /*font-family: "DejaVu Sans Mono";*/
+  -ms-font-family: "DejaVu Sans";
+  -moz-font-family: "DejaVu Sans";
+  font-size: 24px;
+  font-style: bold;
+}
+
+img.profile{
+  align-self: center;
+    width:320px;
+    /*max-width: 30%;*/
+    filter:grayscale(100%);
+}
+/*
+figcaption.profile{
+    font-family:"Courier", Courier, monospace;
+    font-color:black;
+    white-space: nowrap;
+}
+*/
+/*
+.profile .pro-pictures {
+    filter: grayscale(100%);
+}
+
+.profile .pro-words{
+    font-family: "Courier", Courier, monospace;
+    font-color: black;
+    font-size: 12px;
+}*/
+
+.fade-in{
+    animation: fadeIn ease 4s;
+    -webkit-animation: fadeIn ease 4s;
+    -moz-animation: fadeIn ease 4s;
+    -o-animation: fadeIn ease 4s;
+    -ms-animation: fadeIn ease 4s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+}
